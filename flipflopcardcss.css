@@ -1,0 +1,163 @@
+.main{
+    position:absolute;
+   top:100px;
+   left:30%;
+   margin:50px;
+   justify-content: space-between;
+}
+.card{
+   
+ margin: 50px;
+    height:200px;
+    width:200px;
+    position: relative;
+}
+.inner-card{
+    position:absolute;
+    transform-style: preserve-3d;
+    transition: all 0.5s ease-in-out;
+    height:300px;
+    width:200px;
+}
+.inner-card:hover {
+    transform:rotateY(180deg);
+}
+.front{
+    height:340px;
+    width:240px;
+   
+    background-color:red;
+    color:white;
+    position:absolute;
+    backface-visibility: hidden;
+}
+.back{
+    height:340px;
+    width:240px;
+   
+    transform:rotateY(180deg);
+    color:white;
+    background-color: blue;
+    position:absolute;
+    backface-visibility: hidden;
+}
+
+ .card1{
+   
+margin:50px;
+    height:200px;
+    width:200px;
+    position: relative;
+}
+.inner-card1{
+    position:absolute;
+    transform-style: preserve-3d;
+    transition: all 0.5s ease-in-out;
+    height:300px;
+    width:200px;
+}
+.inner-card1:hover {
+    transform:rotateY(180deg);
+}
+.front1{
+    height:340px;
+    width:240px;
+   
+    background-color:rgb(148, 197, 24);
+    color:rgb(228, 199, 199);
+    position:absolute;
+    backface-visibility: hidden;
+}
+.back1{
+    height:340px;
+    width:240px;
+   
+    transform:rotateY(180deg);
+    color:white;
+    background-color: rgb(189, 49, 117);
+    position:absolute;
+    backface-visibility: hidden;
+}
+.card2{
+   
+ margin:50px;
+    height:200px;
+    width:200px;
+    position: relative;
+}
+.inner-card2{
+    position:absolute;
+    transform-style: preserve-3d;
+    transition: all 0.5s ease-in-out;
+    height:300px;
+    width:200px;
+}
+.inner-card2:hover {
+    transform:rotateY(180deg);
+}
+.front2{
+    height:340px;
+    width:240px;
+   
+    background-color:rgb(226, 116, 7);
+    color:rgb(228, 199, 199);
+    position:absolute;
+    backface-visibility: hidden;
+}
+.back2{
+    height:340px;
+    width:240px;
+   
+    transform:rotateY(180deg);
+    color:white;
+    background-color: rgb(16, 168, 173);
+    position:absolute;
+    backface-visibility: hidden;
+}
+.card-box{
+    display:flex;
+    float:left;
+    margin-left:-30%;
+  
+}
+.profile,.profile1,.profile2{
+        font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        text-align:center;
+        box-shadow: 0 0 10px rgb(61, 56, 56);
+        border:1px solid;
+        display: inline-block;
+        max-width: 200px;
+        padding: 20px;
+        margin:0px;
+        
+        height:300px;
+    width:200px;
+        
+    }
+    .profile_image,.profile_image1,.profile_image2{
+        width:150px;
+        height:150px;
+        object-fit:cover;
+        border-radius:50%;
+        display:block;
+        margin:0px auto 20px auto;
+       padding:10px;
+    }
+    .profile__name,.profile__name1,.profile__name2{
+        font-size:1.2em;
+        font-weight:bold;
+    }
+    .profile__title,.profile__title1,.profile__title2{
+        margin-bottom:20px;
+
+    }
+    .profie__detail,.profie__detail1,.profie__detail2 {
+        display:flex;
+        align-items: center;
+        justify-content: center;
+       
+    }
+    img{
+        height:30px;
+        width:40px;
+    }
